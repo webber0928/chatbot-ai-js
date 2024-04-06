@@ -1,5 +1,23 @@
 # @google/generative-ai
 
+## 0.5.0
+
+### Minor Changes
+
+- 658a0da: Add `apiClient` configuration option to `RequestOptions`.
+
+## 0.4.0
+
+### Minor Changes
+
+- 790a943: Deprecate functionCall() and add functionCalls().
+- e636823: Loosen role field typing on Content.
+- 7a45f01: Add option in RequestOptions to change baseUrl.
+
+### Patch Changes
+
+- 3f95168: Fix requestOptions not being passed through countTokens, embedContent, and batchEmbedContents
+
 ## 0.3.1
 
 ### Patch Changes

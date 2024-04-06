@@ -116,7 +116,17 @@ export interface RequestOptions {
    * defaults to latest stable version.
    */
   apiVersion?: string;
+  /**
+   * Additional attribution information to include in the x-goog-api-client header.
+   * Used by wrapper SDKs.
+   */
+  apiClient?: string;
+  /**
+   * Base endpoint url. Defaults to "https://generativelanguage.googleapis.com"
+   */
+  baseUrl?: string;
 }
+
 /**
  * Defines a tool that model can call to access external knowledge.
  * @public
